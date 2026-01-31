@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <NavBar categoriesNav = {categories}></NavBar>
+      <ItemListContainer message={"¡Bienvenido a Belle Or!"}></ItemListContainer>
     </div>
   )
 }
