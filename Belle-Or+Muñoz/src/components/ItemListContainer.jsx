@@ -1,3 +1,5 @@
+import './ItemListContainer.css'
+
 function ItemListContainer() {
     return(
     <>

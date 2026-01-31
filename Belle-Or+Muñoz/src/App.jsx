@@ -1,11 +1,12 @@
 import './App.css'
-import './components/NavBar'
-import './components/ItemListContainer'
+import NavBar from "./components/NavBar"
+import ItemListContainer from "./components/ItemListContainer"
 
 function App() {
   return (
-  <>
-  </>
+    <div>
+      <NavBar></NavBar>
+    </div>
   )
 }
 
