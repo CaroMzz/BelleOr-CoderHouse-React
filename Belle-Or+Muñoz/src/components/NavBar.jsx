@@ -7,7 +7,7 @@ function NavBar() {
     return(
         <div className="navbar">
             <img src={logo} alt="Logo de Belle Or" />
-            
+            <CartWidget></CartWidget>
         </div>
     )
 }
