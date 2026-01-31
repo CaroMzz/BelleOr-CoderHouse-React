@@ -3,9 +3,11 @@ import NavBar from "./components/NavBar"
 import ItemListContainer from "./components/ItemListContainer"
 
 function App() {
+  const categories = ["Anillos", "Cadenitas", "Pulseras", "Aros", "Conjuntos"]
+
   return (
     <div>
-      <NavBar></NavBar>
+      <NavBar categoriesNav = {categories}></NavBar>
     </div>
   )
 }

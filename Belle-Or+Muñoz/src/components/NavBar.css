@@ -18,3 +18,20 @@
   height: 45px;
   width: auto;
 }
+
+.navbar .categories {
+    flex: 1;              
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .categories ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar .categories li{
+    padding: 10px;
+}
